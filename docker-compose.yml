@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   app:
-    image: tu_usuario/tu_imagen
+    image: cesaramoranbb/flask:v1
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123456
-      POSTGRES_DB: pruebar
+      POSTGRES_DB: prueba
     ports:
       - "5000:5000"
