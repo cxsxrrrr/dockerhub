@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: tu_usuario/tu_imagen
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: pruebar
+    ports:
+      - "5000:5000"
